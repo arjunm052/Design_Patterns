@@ -2,6 +2,7 @@ package Observer_Design_Pattern.Observer;
 
 import Observer_Design_Pattern.Observable.StockObservable;
 
+//Create implementation of Observer
 public class EmailNotificationImplementation implements NotificationAlertObserver {
 
     String email;

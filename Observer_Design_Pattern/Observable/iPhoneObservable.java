@@ -4,6 +4,7 @@ import java.util.*;
 
 import Observer_Design_Pattern.Observer.NotificationAlertObserver;
 
+//Create the implementation of observable interface
 public class iPhoneObservable implements StockObservable {
     int stockCount = 0;
     List<NotificationAlertObserver> observerList = new ArrayList<>();
